@@ -1,0 +1,158 @@
+body {
+    background-image: url("/img/wallpaper.png");
+    text-align: center;
+    position: relative;
+}
+
+.button1 {
+    text-align: middle;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: auto;
+    height: 80px;
+    background-color: yellow;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0);
+    border: 3px double #FF4294;
+    border-radius:  3px;
+    color: #00004A;
+    font-family: 'Press Start 2P';
+    font-size: 23px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button2 {
+    text-align: middle;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: auto;
+    height: 80px;
+    background-color: brown;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255,139,253,0);
+    border: 3px double #FF4294;
+    border-radius:  3px;
+    color: #ffffff;
+    font-family: 'Press Start 2P';
+    font-size: 23px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button1:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
+.button2:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    user-select: none;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    color: rgb(11, 0, 64);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+p {
+    font-family: 'Press Start 2P';
+    user-select: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 194, 25) 0px 0px 5px, rgb(255, 194, 25) 0px 0px 10px, rgb(255, 194, 25) 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    user-select: none;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: rgb(11, 0, 64);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.maps {
+    position: absolute;
+    top: 20%;
+    left: 20% ;
+    display: none;
+}
+
+.imgmap {
+    margin-top: 10px;
+}
+
+.imgmap1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 345px;
+    height: 200px;
+}
+
+.imgmap1:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:auto;
+    z-index:999;
+    cursor: pointer;
+}
+
+.imgmap2 {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 440px;
+    height: 200px;
+}
+
+.imgmap2:hover {
+    position:relative;  
+    width:500px;
+    height:auto;
+    z-index:999;
+    cursor: pointer;
+}
+
+.imgmap3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+    height: 200px;
+}
+
+.imgmap3:hover {
+    position:relative;
+    top:-25px;
+    right:35px;
+    width:500px;
+    height:auto;
+    z-index:999;
+    cursor: pointer;
+}
+
+.guide {
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+    user-select: none;
+    cursor: crosshair;
+}

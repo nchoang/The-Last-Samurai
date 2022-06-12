@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Link rel="Stylesheet" type="text/css" href="./styles.css">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+        rel="stylesheet"
+      /> 
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <embed id="myAudio" src="/sounds/bgrmusic1.mp3" loop="infinite" autostart="true" style="width: 1px; height: 1px; user-select: none">
+    </head>
+    <title>The Last Samurai</title>
+
+<body>
+    <div class ="mainmenu">
+      <h1>The Last Samurai</h1>
+      <p>A multiplayer PVP game</p>
+      <button onclick="document.location='gameon.html'" class="button1">NEW GAME</button>
+      <button class="button1" onclick="showmap1()" id="btnmap">CHOOSE MAP</button>
+      <button onclick="document.location='guide.html'" class="button1">GUIDE</button>
+    </div>
+ 
+    <div class="maps">
+      <h2>CHOOSE A MAP TO PLAY</h2>
+      <button onclick="document.location='gameon.html'" class="button1">OAK WOOD</button>
+      <button onclick="document.location='gameon2.html'" class="button1">SUNSET RIVER</button>
+      <button onclick="document.location='gameon3.html'" class="button1">TORII GATE</button>
+      <div class = "imgmap">
+        <img class ="imgmap1" src="/img/background.png"/>
+        <img class ="imgmap2" src="/img/background2.png"/>
+        <img class ="imgmap3" src="/img/background3.png"/>
+      </div>
+      <div class="return">
+          <button onclick="document.location='index.html'" class="button2">Main Menu</button>
+      </div>
+    </div>
+   
+</body>
+
+<script>
+  var btnmap = document.querySelector('#btnmap');
+  var showmap = document.querySelector('.maps');
+  var mainmenu = document.querySelector('.mainmenu');
+  var btnguide = document.querySelector('#btnguide');
+  var guide = document.querySelecter('.guide');
+  btnmap.onlick = function() {showmap()};
+  function showmap1() {
+    showmap.style.display = "block";
+    mainmenu.style.display = "none";
+    console.log(1);
+  }
+</script>
+</html>

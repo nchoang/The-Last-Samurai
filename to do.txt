@@ -1,0 +1,2 @@
+2. giới hạn khung hình map
+4. tạo thanh mana
